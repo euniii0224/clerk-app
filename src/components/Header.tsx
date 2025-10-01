@@ -31,6 +31,18 @@ export default function Header() {
 
             <SignedIn>
               <Link
+                href="/repos"
+                className="text-gray-300 hover:text-white mr-4"
+              >
+                Repos
+              </Link>
+              <Link
+                href="/dashboard-s"
+                className="text-gray-300 hover:text-white mr-4"
+              >
+                Dashboard-S
+              </Link>
+              <Link
                 href="/dashboard-s"
                 className="text-gray-300 hover:text-white mr-4"
               >
