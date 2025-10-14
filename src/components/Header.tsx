@@ -21,6 +21,18 @@ export default function Header() {
 
           <div className="flex items-center font-bold">
             <SignedOut>
+              <Link
+                href="/repos"
+                className="text-gray-300 hover:text-white mr-4"
+              >
+                Repos
+              </Link>
+              <Link
+                href="/courses"
+                className="text-gray-300 hover:text-white mr-4"
+              >
+                Courses
+              </Link>
               <div className="text-gray-300 hover:text-white mr-4">
                 <SignInButton />
               </div>
@@ -35,6 +47,12 @@ export default function Header() {
                 className="text-gray-300 hover:text-white mr-4"
               >
                 Repos
+              </Link>
+              <Link
+                href="/courses"
+                className="text-gray-300 hover:text-white mr-4"
+              >
+                Courses
               </Link>
               <Link
                 href="/dashboard-s"
